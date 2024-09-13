@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial,sans;
+}
+nav,ul,a{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.blog,.contact-us{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 50px;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    margin: 15px;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+}
+form label, form input {
+    display: block;
+    padding: 8px 10px;
+    width: 95%;
+}
